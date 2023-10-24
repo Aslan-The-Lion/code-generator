@@ -3,10 +3,6 @@ var upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 var lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz".split("");
 var specialCharacters = "!@#$%^&*()_+~`|}{[]:;?><,./-=".split("");
 
-var letNumeric = false
-var letUppercaseLetters = false
-var letLowerCaseLetters = false
-var letSpecialCharacters = false
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 function generatePassword() {
@@ -20,7 +16,7 @@ var characterAmount = prompt("choose the amount of characters for your password,
   alert (characterAmount + " characters is the amount you chose.")
  }
  letNumeric = confirm ("would you like numbers in your password?")
- letLowerCaseLetters = confirm ("would you like lowecase letters in your password?")
+ letLowerCaseLetters = confirm ("would you like lowercase letters in your password?")
  letUppercaseLetters = confirm ("would you like uppercase letters in your password?")
  letSpecialCharacters = confirm ("would you like special characters in your password?")
 
