@@ -10,9 +10,9 @@ the purpose of this challenge
 3. script.js - contains the functions, and information for the generator
 
 ## Screenshot & URL
-Deployed Application: 
+Deployed Application: https://aslan-the-lion.github.io/code-generator/
 GitHub Repo: https://github.com/Aslan-The-Lion/code-generator
-screenshots of website: 
+screenshots of website: <img width="1031" alt="Screen Shot 2023-10-23 at 10 04 23 PM" src="https://github.com/Aslan-The-Lion/code-generator/assets/137839906/5813803b-3574-47d1-b0a7-07619dfef394">
 
 ## credit
 Emily Morosoff and and her tutor, Jaba.
