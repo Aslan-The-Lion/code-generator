@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Alan's Password Generator ✌️</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate Your Password</h2>
+        </div>
+        <!-- <fieldset>
+            <legend>Select From Choices Below</legend>
+            <div>
+              <input type="checkbox" id="special-character" name="interest" value="special-character" />
+              <label for="special-character">Special Character</label>
+            </div>
+            <div>
+              <input type="checkbox" id="one-uppercase" name="interest" value="one-uppercase" />
+              <label for="one-uppercase">Uppercase</label>
+            </div>
+            <div>
+                <input type="checkbox" id="one-lowercase" name="interest" value="one-lowercase" />
+                <label for="one-lowercase">Lowercase</label>
+              </div>
+              <div>
+                <input type="checkbox" id="numeric" name="interest" value="numeric" />
+                <label for="numeric">numeric</label>
+              </div>
+              <div>
+                <label>
+                    <input type="checkbox" id="Character-Amount" name="interest" value="Character-Amount" />
+                    pick between 8-128 Characters 
+                  </label>
+                  <input
+                    type="text"
+                    id="Character-Amount"
+                    name="Character-Amount"
+                    aria-label="Other interest" />
+              </div>
+          </fieldset> -->
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password by Alan✨"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate Password</button>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
